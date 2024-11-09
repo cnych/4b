@@ -9,7 +9,6 @@ import JPPage from '@/components/Home/JPPage'
 import KOPage from '@/components/Home/KOPage'
 import { getLocalizedPath } from '@/utils/links'
 
-
 export async function generateStaticParams() {
   // 获取所有文章
   const posts = getAllPosts(['slug', 'lang'])
