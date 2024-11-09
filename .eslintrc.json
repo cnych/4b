@@ -3,6 +3,7 @@
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
   "root": true,
+
   "rules": {
     // 禁用空接口规则
     "@typescript-eslint/no-empty-interface": "off",
@@ -20,6 +21,7 @@
     "@typescript-eslint/ban-ts-comment": "warn",
 
     // React 相关规则
+    "react/no-unescaped-entities": 0,
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "react/display-name": "off",
