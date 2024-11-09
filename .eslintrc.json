@@ -39,7 +39,7 @@
     "prefer-const": "warn",
     "no-var": "error",
     "eqeqeq": ["error", "always"],
-    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }]
+    "no-multiple-empty-lines": "off"
   },
   "settings": {
     "react": {
